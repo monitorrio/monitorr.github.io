@@ -1,16 +1,16 @@
-title: ElmahBucket
+title: Monitorr
 description: Error logging service for .NET web applications.
-url: http://elmahbucket.io
-cdn: http://elmahbucket.io
+url: http://monitorr.io
+cdn: http://monitorr.io
 
 author:
   name: 'Vasile Laur'
-  url:  support@elmahbucket.io
+  url:  support@monitorr.io
 
-github_repo:   https://github.com/ElmahBucket/elmahbucket.github.io
+github_repo:   https://github.com/Monitorr/monitorr.github.io
 github_branch: master
 
-disqus_short_name:         elmahbucket
+disqus_short_name:         monitorr
 disqus_show_comment_count: true
 
 # Windows environments

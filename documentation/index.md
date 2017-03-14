@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ElmahBucket Documentation
+title: Monitorr Documentation
 active: documentation
 ---
 
@@ -9,11 +9,11 @@ active: documentation
   <div class="col-md-7">
   <h1 itemprop="name">Quick Start</h1>
   <p>
-        There are a couple of packages for ElmahBucket available on NuGet.
+        There are a couple of packages for Monitorr available on NuGet.
       </p>
   <p>
-        To install ElmahBucket into your ASP.NET application, type the following command into the Package Manager Console window:
-        <code>PM&gt; Install-Package ElmahBucket</code></p>
+        To install Monitorr into your ASP.NET application, type the following command into the Package Manager Console window:
+        <code>PM&gt; Install-Package Monitorr</code></p>
 </div>
   <div class="col-md-5">
 </div>

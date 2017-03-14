@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
-Host: elmahbucket.io
-Sitemap: http://elmahbucket.io/sitemap.xml
+Host: monitorr.io
+Sitemap: http://monitorr.io/sitemap.xml

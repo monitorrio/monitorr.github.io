@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ElmahBucket Pricing
+title: Monitorr Pricing
 active: pricing
 ---
 
@@ -38,7 +38,7 @@ active: pricing
                   <div class="plan-price">
                       <h3>Free</h3>
                   </div>
-                  <a href="https://www.nuget.org/packages/ElmahBucket/" class="btn btn-default">Get Started</a>
+                  <a href="https://www.nuget.org/packages/monitorr/" class="btn btn-default">Get Started</a>
               </div>
           </div>
       </div>
