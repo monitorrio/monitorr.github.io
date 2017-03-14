@@ -1,0 +1,10 @@
+---
+layout: blog
+title: ElmahBucket Blog
+subtitle: Blog
+active: blog
+---
+
+{% for post in paginator.posts %}
+	{% include blog/post_item.html %}
+{% endfor %}

@@ -1,0 +1,49 @@
+title: ElmahBucket
+description: Error logging service for .NET web applications.
+url: http://elmahbucket.io
+cdn: http://elmahbucket.io
+
+author:
+  name: 'Vasile Laur'
+  url:  support@elmahbucket.io
+
+github_repo:   https://github.com/ElmahBucket/elmahbucket.github.io
+github_branch: master
+
+disqus_short_name:         elmahbucket
+disqus_show_comment_count: true
+
+# Windows environments
+# highlighter: rouge
+
+kramdown:
+  auto_ids: true
+  input:    GFM
+
+permalink: /blog/:year/:month/:day/:title.html
+
+paginate:      5
+paginate_path: "blog/page:num/"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      active: blog
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      layout: "post"
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-paginate
