@@ -1,65 +1,61 @@
-﻿<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        {% if page.keywords %}
-        <meta name="keywords" content="{{ page.keywords }}">
-        {% endif %}
-        {% if page.description %}
-        <meta name="description" content="{{ page.description }}">
-        {% endif %}
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}"> {% endif %} {% if page.description %}
+    <meta name="description" content="{{ page.description }}"> {% endif %}
 
 
-        <link href="{{ site.cdn }}/css/bootstrap.min.css" rel="stylesheet">
-        <link href="{{ site.cdn }}/css/font-awesome.min.css" rel="stylesheet">
-        <link href="{{ site.cdn }}/css/lightbox.css" rel="stylesheet">
-        <link href="{{ site.cdn }}/css/highlight.css" rel="stylesheet">
-        <link href="{{ site.cdn }}/css/monitorr.css" rel="stylesheet">
-        <link href="{{ site.cdn }}/css/styles.css" rel="stylesheet">
+    <link href="{{ site.cdn }}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.cdn }}/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{ site.cdn }}/css/lightbox.css" rel="stylesheet">
+    <link href="{{ site.cdn }}/css/highlight.css" rel="stylesheet">
+    <link href="{{ site.cdn }}/css/monitorr.css" rel="stylesheet">
+    <link href="{{ site.cdn }}/css/styles.css" rel="stylesheet">
 
-        <!--[if lt IE 9]>
+    <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <link rel="alternate" type="application/rss+xml" title="RSS" href="/">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/">
 
-<script>
+    <script>
+    </script>
+    <meta name="google-site-verification" content="shiAzG92L6bG_irkF8R1CGyMW7Go2gQT27EDwzc1Oj8" />
+</head>
 
-</script>
-    </head>
-    <body>
-        <nav class="navbar navbar-hangfire {% if page.jumbotron != null %}navbar-jumbotron{% endif %}" role="navigation">
-          <div class="container">
+<body>
+    <nav class="navbar navbar-hangfire {% if page.jumbotron != null %}navbar-jumbotron{% endif %}" role="navigation">
+        <div class="container">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-              </button>
-              {% if page.jumbotron == null %}
-              <a class="navbar-brand" href="/">
+              </button> {% if page.jumbotron == null %}
+                <a class="navbar-brand" href="/">
                 {{ site.title }}
-              </a>
-              {% endif %}
+              </a> {% endif %}
             </div>
             <div class="collapse navbar-collapse">
-              {% include nav.html %}
+                {% include nav.html %}
             </div>
-          </div>
-        </nav>
+        </div>
+    </nav>
 
-        {{ content }}
+    {{ content }} {% include footer.html %}
 
-        {% include footer.html %}
+    <script src="{{ site.cdn }}/js/jquery.min.js"></script>
+    <script src="{{ site.cdn }}/js/bootstrap.min.js"></script>
+    <script src="{{ site.cdn }}/js/imagelightbox.min.js"></script>
+    <script src="{{ site.cdn }}/js/anchor.min.js"></script>
+</body>
 
-        <script src="{{ site.cdn }}/js/jquery.min.js"></script>
-        <script src="{{ site.cdn }}/js/bootstrap.min.js"></script>
-        <script src="{{ site.cdn }}/js/imagelightbox.min.js"></script>
-        <script src="{{ site.cdn }}/js/anchor.min.js"></script>
-    </body>
 </html>
