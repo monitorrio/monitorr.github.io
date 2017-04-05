@@ -1,6 +1,6 @@
 ### What is this repository for? ###
 
-[https://monitor.io](monitorr.io) Error Logging Dashboard.
+[https://admin.monitor.io](https://admin.monitor.io) Error Logging Dashboard.
 
 ####  Main features
 
