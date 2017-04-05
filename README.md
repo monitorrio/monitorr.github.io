@@ -1,20 +1,17 @@
 ### What is this repository for? ###
 
-[https://admin.monitor.io](https://admin.monitor.io) Error Logging Dashboard.
+This repository hosts the [https://monitor.io](monitorr.io)  project organization pages. [Jekyll](https://github.com/mojombo/jekyll) is used to manage page transformation in accordance with GitHub Pages usage.
 
-####  Main features
+[Visit Monitorr on GitHub.](https://github.com/monitorrio/monitorr)
 
-- Angular 1
-- ECMAScript 2015 with Babel
-- Webpack and NPM
-- Stylus CSS Preprocessor
-- Atlas template([<http://atlas-admin.herokuapp.com/>])
-- 0auth integration ([<https://auth0.com/>])
+To run locally (Windows):
 
+  1. Install [Ruby and the Ruby Development Kit](http://rubyinstaller.org/downloads/).
+  1. At a regular (not irb) command prompt, run `gem install jekyll`
+  1. Change to the local repo directory with the site.
+  1. Run `jekyll serve`
+  1. In a browser, visit [http://localhost:4000](http://localhost:4000)
 
-#### Installation
-
-1. pull latest version form github ([<https://github.com/laurvasile/angular-webpack.git>])
-2. cd to project folder
-3. npm install (make sure to have node installed on you environment [<https://nodejs.org/en/>])
-4. npm run dev
+Jekyll resources:
+  * [Jekyll Documentation](http://jekyllrb.com/docs/home/)
+  * [Learning Jekyll by Example](http://www.andrewmunsell.com/tutorials/jekyll-by-example/)
