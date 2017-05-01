@@ -1,7 +1,6 @@
-Monitorr Official Site
-====================
+### What is this repository for? ###
 
-This repository hosts the Monitorr  project organization pages. [Jekyll](https://github.com/mojombo/jekyll) is used to manage page transformation in accordance with GitHub Pages usage.
+This repository hosts the [http://monitor.io](http://monitorr.io)  project organization pages. [Jekyll](https://github.com/mojombo/jekyll) is used to manage page transformation in accordance with GitHub Pages usage.
 
 [Visit Monitorr on GitHub.](https://github.com/monitorrio/monitorr)
 
