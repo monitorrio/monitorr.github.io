@@ -24,7 +24,7 @@ active: pricing
               </div>
               <div class="plan-body">
                   <ul class="plan-items">
-                      <li>3 user</li>
+                      <li>3 users</li>
                       <li>Unlimited applications</li>
                       <li>5000 logged errors a month.</li>
                       <li>60 days retention.</li>
