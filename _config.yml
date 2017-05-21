@@ -1,5 +1,5 @@
 title: Monitorr
-description: Error logging service for .NET web applications.
+description: Monitorr is an online service that provides exception tracking for of your .NET Web applications. It allows you to easily log all you application errors, and troubleshoot them in one location.
 url: http://monitorr.io
 cdn: http://monitorr.io
 
