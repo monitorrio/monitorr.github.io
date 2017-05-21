@@ -24,12 +24,13 @@ active: pricing
               </div>
               <div class="plan-body">
                   <ul class="plan-items">
-                      <li>1 user</li>
+                      <li>3 user</li>
                       <li>Unlimited applications</li>
-                      <li>60 days retention</li>
                       <li>5000 logged errors a month.</li>
                       <li>60 days retention.</li>
                       <li>SSL encryption</li>
+                      <li>Custom logging</li>
+                      <li>Email Notifications</li>
                       <li class="plan-item-spacer">
                       </li>
                       <li class="plan-item-spacer">
